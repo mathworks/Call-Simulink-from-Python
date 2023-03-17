@@ -13,6 +13,8 @@ The second approach uses [MATLAB Compiler
 SDK](https://www.mathworks.com/help/compiler_sdk/gs/create-a-python-application-with-matlab-code.html)<sup>&trade;</sup> and [Simulink Compiler](https://www.mathworks.com/help/slcompiler/ug/deploy-from-matlab-command-line.html)<sup>&trade;</sup> to first build a Python package around the wrapper function <code>sim_the_model.m</code> as shown in
 <code>build_python_package_around_sim_the_model.m</code>. We can then call this package to run the warpper function <code>sim_the_model.m</code> multiple times passing in different parameters and external input signals as show in <code>call_sim_the_model_using_matlab_runtime.py</code>.  
 
+![results_mrt](results_mrt.png)
+
 This example includes the following files:
 
 * <code>the_model.slx</code>: the Simulink model we will simulate in the example;
