@@ -7,7 +7,7 @@ This example illustrates two ways to simulate a Simulink model (named <code>the_
 The first approach, shown in <code>call_sim_the_model_using_matlab_engine.py</code>, uses the [MATLAB Engine API for
 Python](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html) to call the wrapper function <code>sim_the_model.m</code> multiple times passing in different parameters and external input signals. 
 
-![results_mle](results_mle.png)
+![results_mle](results_mle2.png)
  
 The second approach uses [MATLAB Compiler
 SDK](https://www.mathworks.com/help/compiler_sdk/gs/create-a-python-application-with-matlab-code.html)<sup>&trade;</sup> and [Simulink Compiler](https://www.mathworks.com/help/slcompiler/ug/deploy-from-matlab-command-line.html)<sup>&trade;</sup> to first build a Python package around the wrapper function <code>sim_the_model.m</code> as shown in
